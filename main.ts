@@ -16,7 +16,7 @@ form.addEventListener('submit', (event: Event)=>{
     const getResume=`
     <h2><b>Resume</b></h2>
     <h3>Personal Information</h3>
-     <p><strong> Name: </strong> ${name}</p>
+     <p><strong> Name </strong> ${name}</p>
       <p><strong>Email </strong> ${email}</p>
        <p><strong> Contact: </strong> ${contact}</p>
         <p><strong>Social Media Accounts: </strong> ${socialMediaAccounts}</p>
@@ -28,11 +28,11 @@ form.addEventListener('submit', (event: Event)=>{
            <p>${experience}</p>
             <h3>Skills</h3>
             <p>${skills}</p>`;
+            console.log(getResume);
 
             if(generateResumeElement){
                 generateResumeElement.innerHTML=getResume;}
             else{
                 console.error('The resume Element is missing')
             }
-            
 })

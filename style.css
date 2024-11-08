@@ -59,7 +59,7 @@ button:hover{
     background-color: antiquewhite;
     
 }
-#generateResume{
+#generate-resume{
  margin: auto;
     max-width: 800;
     padding: 40px;
@@ -68,6 +68,6 @@ button:hover{
     background-color:rgb(239, 173, 255);
     box-shadow: 0 5px 10px rgb(1, 0.2, 0.1);
 }
-#generateResume h2{
+#generate-resume h3{
     color: rgb(27, 2, 24);
 }

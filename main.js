@@ -10,7 +10,8 @@ form.addEventListener('submit', function (event) {
     var education = document.getElementById('education').value;
     var experience = document.getElementById('experience').value;
     var skills = document.getElementById('skills').value;
-    var getResume = "\n    <h2><b>Resume</b></h2>\n    <h3>Personal Information</h3>\n     <p><strong> Name: </strong> ".concat(name, "</p>\n      <p><strong>Email </strong> ").concat(email, "</p>\n       <p><strong> Contact: </strong> ").concat(contact, "</p>\n        <p><strong>Social Media Accounts: </strong> ").concat(socialMediaAccounts, "</p>\n        <h3>Objective</h3>\n         <p>").concat(objective, "</p>\n         <h3>Education </h3>\n          <p>").concat(education, "</p>\n          <h3>Experience</h3>\n           <p>").concat(experience, "</p>\n            <h3>Skills</h3>\n            <p>").concat(skills, "</p>");
+    var getResume = "\n    <h2><b>Resume</b></h2>\n    <h3>Personal Information</h3>\n     <p><strong> Name </strong> ".concat(name, "</p>\n      <p><strong>Email </strong> ").concat(email, "</p>\n       <p><strong> Contact: </strong> ").concat(contact, "</p>\n        <p><strong>Social Media Accounts: </strong> ").concat(socialMediaAccounts, "</p>\n        <h3>Objective</h3>\n         <p>").concat(objective, "</p>\n         <h3>Education </h3>\n          <p>").concat(education, "</p>\n          <h3>Experience</h3>\n           <p>").concat(experience, "</p>\n            <h3>Skills</h3>\n            <p>").concat(skills, "</p>");
+    console.log(getResume);
     if (generateResumeElement) {
         generateResumeElement.innerHTML = getResume;
     }
